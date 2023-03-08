@@ -1,0 +1,61 @@
+body{
+	background-color:pink;
+	background-image:url('iklan.jpg');
+	background-repeat:no-repeat;
+	background-position:bottom left;
+	background-attachment:fixed;
+	margin:3cm 4cm;
+}
+h1{
+	color:black;
+	text-transform:capitalize;
+	letter-spacing:3px;
+}
+hr{
+	border:gold ridge 2px;
+	margin:10px 0px;
+}
+p{
+	text-align:justify;
+	text-indent:0.5cm;
+	padding:10px;
+	color:black;
+	line-height:0.5cm;
+	word-spacing:7px;
+	font-size:16pt;
+}
+fieldset,legend,img{ 
+	border:gold 5px groove;
+	padding:10px;
+	background-color:grey;
+	color:black;
+}
+div#menu a:hover{
+	text-align:"center"
+	text-decoration:none;
+	border:2px solid #F94A29;
+	padding:5px;
+	background-color:g;
+	margin:0px 5px;
+}
+p.panah_bawah a:link, a:active{
+	text-decoration:overline;
+	font-size:15pt;
+	color:blue;
+	font-weight:normal;
+}
+p.panah_atas a:active{
+	text-decoration:overline;
+	font-size:25pt;
+	color:blue;
+	font-weight:lighter;
+}
+p.p2:first-letter{
+	font-size:25pt;
+	font-family:arial, calibri, cambria;
+	float:left;
+	padding-top:10px;
+	padding-right:20px;
+	padding-bottom:5px;
+	color:black;
+}

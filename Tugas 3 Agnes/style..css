@@ -1,0 +1,70 @@
+body{
+	background-color:pink;
+}
+h1{
+	color:black;
+	text-transform:capitalize;
+	letter-spacing:3px;
+}
+hr{
+	border:gold ridge 2px;
+	margin:10px 0px;
+}
+p{
+	text-align:justify;
+	color:white;
+	font-size:14pt;
+}
+fieldset,legend,img,marquee{ 
+	border:gold 5px groove;
+	padding:10px;
+	background-color:grey;
+	color:white;
+}
+table{
+	background-color:grey;
+	padding:10px;
+	color:white;
+	border:gold ridge 2px;
+}
+div#menu a:hover{
+	text-align:"center"
+	text-decoration:none;
+	border:2px solid #F94A29;
+	padding:5px;
+	background-color:g;
+	margin:0px 5px;
+}
+body.warna{
+	background-color:pink;
+}
+body.left{
+	background-color:pink;
+}
+body.isi{
+	background-color:pink;
+}
+table.posisi{
+	padding:10px;
+}
+p.panah_bawah a:link, a:active{
+	text-decoration:overline;
+	font-size:15pt;
+	color:blue;
+	font-weight:normal;
+}
+p.panah_atas a:active{
+	text-decoration:overline;
+	font-size:25pt;
+	color:blue;
+	font-weight:lighter;
+}
+p.p2:first-letter{
+	font-size:25pt;
+	font-family:arial, calibri, cambria;
+	float:left;
+	padding-top:10px;
+	padding-right:20px;
+	padding-bottom:5px;
+	color:black;
+}
